@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <title>ITC Precourse</title>
+        
+        <link href="../css/style.css" rel="stylesheet">
+        <link rel="icon" href="../images/favicon.ico" type="favicon">
+      </head>
+      <body>
+        <section>
+    
+            <header class="header">
+                <a href="../index.html" class="logo">
+                  <img src="../images/Logo2.jpg" id="logo" class="img__logo" alt="Logo">
+                </a>
+        
+                <nav class="nav__header nav">
+                  <a href="../index.html" class="nav_link">Home</a>
+                  <a href="./about.html" class="nav_link">About</a>
+                  <a href="./contact.html" class="nav_link">Contact</a>
+                </nav>
+            </header>
+
+
+            <div class="card">
+                <h1>Contact</h1>
+
+               
+                  <form action="https://formspree.io/f/xpzelgbw" method="post" class="form box">
+                    <fieldset>
+                      <legend>Please, fill the fields to make contact</legend>
+
+                      <div class="field_container">
+                          <div class="field">
+                            <label for="name">Name</label>
+                            <input class="field-content" id="name" name="name" type="text" placeholder="First Name" required>
+                          </div>
+
+                          <div class="field">
+                            <label for="last_name">Last Name</label>
+                            <input class="field-content" id="last_name" name="last_name" type="text" placeholder="Last Name">
+                          </div>
+
+                          <div class="field">
+                            <label for="email">Email</label>
+                            <input class="field-content" id="email" name="email" type="email" placeholder="Email" required>
+                          </div>
+                          
+                          <div class="field">
+                            <label for="comments">Message</label>
+                            <textarea class="field-content" name="comments" id="comments" cols="30" rows="10" placeholder="Your message" required></textarea>
+                          </div>
+                      </div>
+
+                      <div class="button_submit">
+                        <input class="button btn_right" id="submit" type="submit" value="Submit" disabled>
+                      </div>
+                      
+
+                    </fieldset>
+                  </form>
+
+
+            </div>
+
+        </section>
+
+
+
+
+        <footer class="footer">
+
+              <div class="footer__container">
+
+                <nav class="footer__nav">
+                  <a href="../index.html" class="nav_link">Home</a>
+                  <a href="./about.html" class="nav_link">About</a>
+                  <a href="./contact.html" class="nav_link">Contact</a>
+                </nav>
+              
+
+                <div class="array">
+
+                  <p class="built">This page...</p>
+                  <div class="footer__itc">&#169; Cristian Aguero</div>
+
+                </div> 
+              </div>   
+        </footer>
+        <script src="../js/contact.js"></script>
+        <script src="../js/footer.js"></script>
+      </body>
+</html>
